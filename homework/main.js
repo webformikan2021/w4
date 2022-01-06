@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'その日は、とても暑かった。 そして :insertx:は出かけた。 :inserty:に着いた。そして彼は :insertZ:。 ボブは一部始終を見ていたが、全く驚かなかった。 — :insertx:はドーナツを食べた。 :inserty:ではよくあることだった。'
+const storyText = 'その日は、とても暑かった。 そして :insertx:は出かけた。 :inserty:に着いた。そして彼は :insertZ:。 Bobは一部始終を見ていたが、全く驚かなかった。 — :insertx:はドーナツを食べた。 :inserty:ではよくあることだった。'
 const insertX = ['ミッキー', 'スポンジボブ', 'ドナルド'];
 const insertY = ['ディズニーシー', '金閣寺', '大涌谷'];
 const insertZ = ['混雑していた', '雪が降っていた', '鳥が多かった'];
