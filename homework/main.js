@@ -38,7 +38,7 @@ function result() {
     newStory = newStory.replace('45', 気温);
     newStory = newStory.replace('300', 体重);
      newStory = newStory.replace('華氏', '摂氏');
-    newStory = newStory.replace('ポンド', '度');
+    newStory = newStory.replace('ポンド', 'キロ');
   }
 
   story.textContent = newStory;
