@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = 'その日は、華氏45度のとても暑い日だった。そして:insertx:は出かけた。間もなく:inserty:に着いた。体重が300ポンドの彼は:insertz:。ボブは一部始終を見ていたが、全く驚かなかった。:insertx:はドーナツを食べた。それは:inserty:ではよくあることだった。'
+const storyText = 'その日は、華氏45度のとても寒い日だった。そして:insertx:は出かけた。間もなく:inserty:に着いた。体重が300ポンドの彼は:insertz:。ボブは一部始終を見ていたが、全く驚かなかった。:insertx:はドーナツを食べた。それは:inserty:ではよくあることだった。'
 const insertX = ['ふなっしー', 'くまモン', 'ムーミン'];
 const insertY = ['ディズニーシー', '金閣寺', '大涌谷'];
 const insertZ = ['踊った', '歌った', '拍手した'];
@@ -33,8 +33,8 @@ function result() {
   }
 
   if (document.getElementById("日本").checked) {
-    const 体重 = `${Math.round(300*0.0714286)} stone`;
-    const 気温 =  `${Math.round((94-32) * 5 / 9)} centigrade`;
+    const 体重 = `${Math.round(300*0.0714286)} キログラム`;
+    const 気温 =  `${Math.round((94-32) * 5 / 9)} 度`;
     newStory = newStory.replace('45', 気温);
     newStory = newStory.replace('300', 体重);
      newStory = newStory.replace('華氏', '摂氏');
