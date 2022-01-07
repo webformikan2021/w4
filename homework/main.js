@@ -35,8 +35,8 @@ function result() {
   if (document.getElementById("日本").checked) {
     const 体重 = `${Math.round(300*0.0714286)} stone`;
     const 気温 =  `${Math.round((94-32) * 5 / 9)} centigrade`;
-    newStory = newStory.replace('28度', 気温);
-    newStory = newStory.replace('50キロ', 体重);
+    newStory = newStory.replace('摂氏30度', '気温28度');
+    newStory = newStory.replace('300ポンド', 体重'キロ');
   }
 
   story.textContent = newStory;
