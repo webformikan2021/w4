@@ -36,7 +36,7 @@ function result() {
     const 体重 = `${Math.round(300*0.0714286)} stone`;
     const 気温 =  `${Math.round((94-32) * 5 / 9)} centigrade`;
     newStory = newStory.replace('摂氏30度', '気温28度');
-    newStory = newStory.replace('300ポンド', 体重'キロ');
+    newStory = newStory.replace('300ポンド', '50キロ');
   }
 
   story.textContent = newStory;
