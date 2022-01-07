@@ -10,7 +10,7 @@ function randomValueFromArray(array){
 const storyText = 'その日は、とても暑かった。そして:insertx:は出かけた。間もなく:inserty:に着いた。そして彼は:insertz:。ボブは一部始終を見ていたが、全く驚かなかった。:insertx:はドーナツを食べた。:inserty:ではよくあることだった。'
 const insertX = ['ミッキー', 'スポンジボブ', 'ドナルド'];
 const insertY = ['ディズニーシー', '金閣寺', '大涌谷'];
-const insertZ = ['混雑していた', '雪が降っていた', '鳥が多かった'];
+const insertZ = ['踊った', '歌った', '拍手した'];
 
 randomize.addEventListener('click', result);
 
