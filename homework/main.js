@@ -33,12 +33,12 @@ function result() {
   }
 
   if (document.getElementById("日本").checked) {
-    const 体重 = `${Math.round(300*0.0714286)} キログラム`;
-    const 気温 =  `${Math.round((94-32) * 5 / 9)} 度`;
+    const 体重 = `${Math.round(300*0.0714286)}`;
+    const 気温 =  `${Math.round((94-32) * 5 / 9)}`;
     newStory = newStory.replace('45', 気温);
     newStory = newStory.replace('300', 体重);
      newStory = newStory.replace('華氏', '摂氏');
-
+    newStory = newStory.replace('ポンド', '度');
   }
 
   story.textContent = newStory;
